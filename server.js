@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Define a simple route
 app.get('/', (req, res) => {
-    res.send('Hello, World! Welcome to the Express Server...');
+    res.send('Hello! Welcome to the Express Server with Docker...');
 });
 
 // Define another route for demonstration
